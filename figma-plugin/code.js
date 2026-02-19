@@ -167,6 +167,7 @@ function makeButtonRow(buttons, gap = 16) {
 
 async function main() {
   await loadFonts();
+  await figma.loadAllPagesAsync();
 
   // Find target frame
   let targetFrame = null;
