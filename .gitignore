@@ -1,0 +1,8 @@
+# Environment variables (contains sensitive tokens - DO NOT COMMIT)
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
